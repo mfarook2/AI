@@ -6,8 +6,7 @@ df = pd.read_csv('smartwatches.csv')
 
 #print(df.to_string())
 
-OPENAI_API_KEY = "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"
-llm = OpenAI(api_token=OPENAI_API_KEY)
+llm = OpenAI(api_token="OPENAI_API_KEY")
 pandas_ai = PandasAI(llm)
 
 print(pandas_ai.run(df, prompt='Which is the most expensive Brand'))

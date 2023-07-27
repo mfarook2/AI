@@ -11,4 +11,4 @@ A streamlit application for Stability AIs text-to-image. This application is bui
 2. Installation Method 2.
    -   Download "text_to_image.py"
    -   Install the required packages.
-   -   Run the applicatio using command "streamlit run text_to_image.py"
+   -   Run the application using command "streamlit run text_to_image.py"

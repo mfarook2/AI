@@ -45,7 +45,6 @@ def text_to_image(api_host, api_key, engine_id, height, width, prompt, \
         st.image(img)
 
 #create the canvas for input parameters 
-st.sidebar.title('🦙💬 By Mohammad Farook')
 st.sidebar.write('By Mohammad Farook :large_orange_circle:')
 st.sidebar.write(':white[https://mdfarook.com :link:]')
 st.sidebar.title(':white[Stability AI text-to-image]')

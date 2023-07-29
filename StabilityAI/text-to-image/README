@@ -1,1 +1,15 @@
 
+A streamlit application for Stability AIs text-to-image. This application is built using REST API. There is a grpc API also, but the tuning options but REST API has more tuning options compared to grpc API
+
+1. Installation Method 1: Using Virtual Environments.
+  - Choose a directory where you would run the application
+  - Download the requirements.txt file and the text_to_image.py file into the directory
+  - Create a vritual environment
+  - Run the command "python -m venv venv"
+  - Build the environment by running the command "pip install -r requirements.txt"
+  - Activate the environment by the command "source venv/bin/activate"
+  - Run the application using command "streamlit run text_to_image.py"
+2. Installation Method 2.
+  - Download "text_to_image.py"
+  - Install the required packages.
+  - Run the application using command "streamlit run text_to_image.py"

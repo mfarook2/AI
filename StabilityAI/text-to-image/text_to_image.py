@@ -52,6 +52,7 @@ tab1, tab2, tab3 = st.sidebar.tabs(["**Stability API Key**",  "**Parameters**", 
 
 # API Key Header (tab1)
 stability_api_key = tab1.text_input("Stability API Key", type="password")
+tab1.write('Note: Obtain the Stability API key from https://platform.stability.ai/docs/getting-started/authentication')
 
 #Parameters (tab 2)
 engine_id = tab2.selectbox(

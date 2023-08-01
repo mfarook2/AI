@@ -44,6 +44,13 @@ def text_to_image(api_host, api_key, engine_id, height, width, prompt, \
         img = Image.open(decoded_image)
         st.image(img)
 
+#page title
+st.set_page_config(
+    page_title="Stability AI: text-to-image Fine Tuning",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
 #create the canvas for input parameters 
 st.sidebar.write('By Mohammad Farook :large_orange_circle:')
 st.sidebar.write(':white[https://mdfarook.com :link:]')

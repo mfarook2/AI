@@ -52,8 +52,6 @@ st.set_page_config(
 )
 
 #create the canvas for input parameters 
-st.sidebar.write('By Mohammad Farook :large_orange_circle:')
-st.sidebar.write(':white[https://mdfarook.com :link:]')
 st.sidebar.title(':white[Stability AI text-to-image]')
 tab1, tab2, tab3 = st.sidebar.tabs(["**Stability API Key**",  "**Parameters**", "**Information**"])
 
